@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form (freecodecamp challenge 2)</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  
+  <body>
+  <div id="survey">
+    <div id="header">
+  <h1 id="title">Survey Form:</h1>
+    </div>
+    <div>
+      <p id="description">Help us design a better social media platform!</p>
+    </div>
+    
+    <form id="survey-form">
+      
+      <div id="personal-info">
+
+        <div class="input-labels">
+          <label id="name-label" for="name">Name:</label>
+          <input id="name" type="text" name="name" placeholder="your name" required>
+        </div>
+      
+        <div class="input-labels">
+          <label id="email-label" for="email" class="input-labels">Email:</label>
+          <input id="email" type="email" name="email" placeholder="your email" required>             </div>
+      
+      <div class="input-labels">
+        <label id="number-label" for="number" class="input-labels">Age:</label>
+        <input id="number" type="number" name="age" min="2" max="135" placeholder="age">
+      </div>
+      
+      <div class="input-labels">
+        <label for="level-user">How frequently do you use social media?</label>
+        <select id="dropdown" name="frequency">
+          <option value="never">Never</option>
+          <option value="very rarely">Rarely</option>
+          <option value="monthly">Once a Month</option>
+          <option value="weekly">Once a Week</option>
+          <option value="multi-weekly">Several Times Per Week</option>
+          <option value="daily">Once a Day</option>
+          <option value="multi-daily">Several Times Per Day</option>
+          <option value="hourly">Once an Hour (during waking hours)</option>
+          <option value="multi-hourly">Several Time Per Hour</option>
+          <option value="frequent">Every Few Minutes</option>
+          <option value="constant">Almost Constantly</option>
+        </select>
+        </div>
+      </div>
+        
+        <fieldset>
+          <legend>What's your current favorite social media platform:</legend>
+          <input type="radio" name="favorite" id="facebook" value="facebook">
+          <label for="facebook">facebook</label>
+          <input type="radio" name="favorite" id="instagram" value="instagram">
+          <label for="instagram">instagram</label>
+          <input type="radio" name="favorite" id="snapchat" value="snapchat">
+          <label for="snapchat">snapchat</label>
+          <input type="radio" name="favorite" id="tiktok" value="tiktok">
+          <label for="tiktok">tiktok</label>
+          <input type="radio" name="favorite" id="tumblr" value="tumblr">
+          <label for="tumblr">tumblr</label>
+          <input type="radio" name="favorite" id="twitter" value="twitter">
+          <label for="twitter">twitter</label>
+          <input type="radio" name="favorite" id="other" value="other">
+          <label for="other">other</label>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Which features do you like most in a social media site?</legend>
+          <input type="checkbox" name="features" value="filter">
+          <label for="filter">Funny Filters/Effects for Photos/Video</label><br>
+          <input type="checkbox" name="features" value="games">
+          <label for="games">Games Built Into Platform</label><br>
+          <input type="checkbox" name="features" value="media-based">
+          <label for="media-based">Layout Centered Around Photos & Other Media</label><br>
+          <input type="checkbox" name="features" value="recommendations">
+          <label for="recommendations">Good Recommendations for People to Follow/Posts to View</label><br>
+          <input type="checkbox" name="features" value="repost">
+          <label for="repost">Ability to Repost Others' Posts</label><br>
+          <input type="checkbox" name="features" value="photos">
+          <label for="photos">Ease of Posting Photos/Videos</label><br>
+          <input type="checkbox" name="features" value="privacy">
+          <label for="privacy">Protection of My Privacy</label><br>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Do you prefer synchronous or asynchronous followers/friends?</legend>
+          <input type="radio" name="synch-vs-asynch" id="synchronous" value="synchronous">
+          <label for="synchronous">synchronous</label>
+          <input type="radio" name="synch-vs-asynch" id="asynchronous" value="asynchronous">
+          <label for="asynchronous">asynchronous</label>
+        </fieldset>
+
+        <label for="additional-comments">Please add any additional comments or suggestions you think would be helpful:</label>
+        <textarea id="additional-comments" rows="5" cols="30">additional comments here...</textarea>
+        <p>Thank you.</p>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+  
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+  
+</html>
+  
+  
+
+</body>
+
+</html>
